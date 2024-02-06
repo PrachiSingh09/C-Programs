@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int a=123; //Integer datatype
+  cout<<a<<endl;
+  char b='v'; //Character datatype
+  cout<<b<<endl;
+  bool bl=true; //Boolean datatype
+  cout<<bl<<endl;
+  float f=1.2; //Float datatype
+  cout<<f<<endl;
+  double d=1.23; //Double datatype
+  cout<<d<<endl;
+  int size=sizeof(a); // Used to get the size of the datatype.
+  cout<<"Size of a is : "<<size<<endl;
+  //Typecasting
+  int m='A';
+  cout<<m<<endl;
+  char ch=98;
+  cout<<ch<<endl;
+  //Unsigned integer number
+  unsigned int k=112;
+  cout<<k<<endl;
+  
+    return 0;
+}
