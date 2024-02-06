@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+//Operators
+int main() {
+  int a=2;
+  int b=3;
+  //Assignment Operators
+  cout<<(a%b)<<endl;
+  cout<<(a/b)<<endl;
+  cout<<(a+b)<<endl;
+  cout<<(a-b)<<endl;
+  cout<<(a*b)<<endl;
+  //Relational Operators
+  bool first=(a==b);
+  cout<<first<<endl;
+  bool second=(a<b);
+  cout<<second<<endl;
+  bool third=(a!=b);
+  cout<<third<<endl;
+  bool fourth=(a>=b);
+  cout<<fourth<<endl;
+  bool fifth=(a<=b);
+  cout<<fifth<<endl;
+  //Logical Operators
+  cout<<!a<<endl;
+  int c=0;
+  cout<<!c<<endl;
+  //Bitwise operator
+  int d=4,e=6;
+  cout<<(d&e)<<endl;
+  cout<<(d|e)<<endl;
+  cout<<(~d)<<endl;
+  cout<<(d^e)<<endl;
+  cout<<(5<<1)<<endl;
+  cout<<(5>>2)<<endl;
+  
+    return 0;
+}
