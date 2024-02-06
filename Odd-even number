@@ -1,0 +1,40 @@
+//Tell if the number is odd or even.
+//Return 1 if even and 0 if odd.
+//method 1:-
+#include<iostream>
+using namespace std;
+
+int fun(int n){
+   if(n&1){
+       return 0;
+   }
+       return 1;
+}
+int main(){
+    int a,ans;
+    cin>>a;
+    ans=fun(a);
+
+
+//Tell if the number is odd or even.
+//Return 1 if even and 0 if odd.
+//Method 2;-
+#include<iostream>
+using namespace std;
+
+int fun(int n){
+   if(n%2==0){
+       return 1;
+   }
+   else{
+       return 0;
+   }
+}
+int main(){
+    int a,ans;
+    cin>>a;
+    ans=fun(a);
+    cout<<ans<<endl;
+}
+    cout<<ans<<endl;
+}
