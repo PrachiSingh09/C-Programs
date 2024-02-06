@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    int j=0;
+    int k=1;
+    cout<<j<<" "<<k<<" "; 
+    for(int i=1;i<=n;i++){
+        int series=j+k;
+        cout<<series<<" ";
+        j=k;
+        k=series;
+    }
+
+    return 0;
+}
